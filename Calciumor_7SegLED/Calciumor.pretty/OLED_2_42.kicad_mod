@@ -1,0 +1,18 @@
+(footprint "OLED_2_42" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 5989dd76-3f05-447e-8f08-7ee05c8d7a9e)
+  )
+  (fp_text value "OLED_2_42" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eee29fbc-10d5-4054-b0d8-84ef2cd32aab)
+  )
+  (fp_rect (start 35.03 24.02) (end -35.03 -24.02)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp c61d5982-8d45-45db-b33b-7944ffe91102))
+  (pad "" np_thru_hole circle (at -32.6 -21.6) (size 3.2 3.2) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp 47454576-b40d-464e-93ac-e413674fb7ac))
+  (pad "" np_thru_hole circle (at -32.6 21.6) (size 3.2 3.2) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp 9570ace3-5143-4f54-8f01-c3128ea7f705))
+  (pad "" np_thru_hole circle (at 32.6 -21.6) (size 3.2 3.2) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp a13b7ecc-21ed-4385-9935-db7190ab6ce6))
+  (pad "" np_thru_hole circle (at 32.6 21.6) (size 3.2 3.2) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp dec78eab-b92b-4bba-9216-c73b53e9802a))
+)
