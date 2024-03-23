@@ -21,7 +21,7 @@
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
-      "pads": true,
+      "pads": false,
       "text": false,
       "tracks": true,
       "vias": true,
@@ -80,20 +80,8 @@
   "project": {
     "files": [
       {
-        "name": "Calciumor_Core.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
-        }
-      },
-      {
         "name": "Calciumor_Core.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
           "display": 1,
           "maximized": false,
@@ -101,6 +89,18 @@
           "pos_y": 0,
           "size_x": 1469,
           "size_y": 1399
+        }
+      },
+      {
+        "name": "Calciumor_Core.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 3456,
+          "size_y": 1408
         }
       }
     ]
