@@ -74,33 +74,21 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Calciumor_Core.kicad_prl",
+    "filename": "Calciumor_KeyMatrix.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Calciumor_Core.kicad_pcb",
-        "open": true,
+        "name": "Calciumor_KeyMatrix.kicad_pcb",
+        "open": false,
         "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
-        }
-      },
-      {
-        "name": "Calciumor_Core.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1713,
+          "pos_y": 0,
+          "size_x": 1734,
+          "size_y": 1399
         }
       }
     ]

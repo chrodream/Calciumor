@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.7,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 2.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,8 +60,7 @@
       ],
       "drc_exclusions": [
         "items_not_allowed|72590000|63690000|1f0c8d6e-58f8-4eb7-be08-d3126fe9f6d4|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|85000000|63300000|a30be5e8-2735-4024-8131-43cb1ad950d8|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|90500000|63350000|ebcf4806-7926-4df9-b47a-653796414ce9|00000000-0000-0000-0000-000000000000"
+        "items_not_allowed|85000000|63300000|a30be5e8-2735-4024-8131-43cb1ad950d8|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -136,7 +135,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -608,7 +607,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
