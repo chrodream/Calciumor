@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 36,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -21,10 +21,10 @@
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
-      "pads": true,
-      "text": false,
-      "tracks": true,
-      "vias": true,
+      "pads": false,
+      "text": true,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -85,10 +85,10 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3458,
+          "size_y": 1398
         }
       },
       {
@@ -96,11 +96,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 1734,
-          "size_y": 1399
+          "maximized": true,
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3458,
+          "size_y": 1398
         }
       }
     ]

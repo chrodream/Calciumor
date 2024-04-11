@@ -59,7 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "items_not_allowed|72590000|63690000|1f0c8d6e-58f8-4eb7-be08-d3126fe9f6d4|00000000-0000-0000-0000-000000000000",
+        "courtyards_overlap|71500001|65600001|18574268-4b59-4ba5-8761-198909d59e96|abc2af91-5eb2-4ce5-a446-5db3c599409f",
+        "items_not_allowed|75300802|65328517|fbf0b877-97bd-4d28-b557-1f2bb8956dc7|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|85000000|63300000|a30be5e8-2735-4024-8131-43cb1ad950d8|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -607,7 +608,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
