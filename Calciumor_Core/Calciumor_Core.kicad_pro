@@ -497,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Calciumor_Core.step",
       "svg": "",
       "vrml": ""
     },
