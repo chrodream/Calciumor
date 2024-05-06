@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Calciumor")(type "KiCad")(uri "${KIPRJMOD}/Calciumor.pretty")(options "")(descr ""))
-)

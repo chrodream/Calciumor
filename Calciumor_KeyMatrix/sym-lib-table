@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Rev counter by BT")(type "KiCad")(uri "D:/Share/Creative/Electric-circuit/Rev counter by BT/Rev counter by BT.kicad_sym")(options "")(descr ""))
-  (lib (name "Calciumor")(type "KiCad")(uri "D:/Share/Creative/Electric-circuit/Calciumor/Calciumor_7SegLED/Calciumor.kicad_sym")(options "")(descr ""))
-)

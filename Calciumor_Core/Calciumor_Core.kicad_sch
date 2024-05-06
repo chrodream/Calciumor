@@ -6233,6 +6233,172 @@
 				)
 			)
 		)
+		(symbol "SW_Push_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW20"
+				(at 1.27 -1.905 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Power_SW"
+				(at -1.27 -1.905 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Calciumor:THBP07"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1_1"
+				(pin output line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -7200,6 +7366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3920e1fe-fb58-4af2-b59f-d1f75b679e62")
+	)
+	(junction
+		(at 378.46 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b0649b9-c642-420e-b33f-ecdb4f17c556")
 	)
 	(junction
 		(at 373.38 87.63)
@@ -8243,6 +8415,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 58.42) (xy 365.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f671747-771f-4abe-bd08-b4bd70191c05")
+	)
+	(wire
+		(pts
 			(xy 466.09 27.94) (xy 461.645 27.94)
 		)
 		(stroke
@@ -8550,6 +8732,16 @@
 			(type default)
 		)
 		(uuid "49736dd6-9674-4893-bfad-d8233f07dd22")
+	)
+	(wire
+		(pts
+			(xy 365.76 68.58) (xy 378.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7ed9ec-7e2b-47a8-a9f1-c66b66cee38a")
 	)
 	(wire
 		(pts
@@ -10200,6 +10392,16 @@
 			(type default)
 		)
 		(uuid "c8ab6f6a-d80b-42a2-9028-2d07753efda6")
+	)
+	(wire
+		(pts
+			(xy 365.76 58.42) (xy 365.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b16171-f5b2-4983-9bbe-b2138e2e2521")
 	)
 	(wire
 		(pts
@@ -23192,9 +23394,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 378.46 63.5 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23202,7 +23404,7 @@
 		(dnp yes)
 		(uuid "d4b115a2-8161-457c-883c-6b113be69a41")
 		(property "Reference" "SW20"
-			(at 376.555 62.23 90)
+			(at 376.555 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23211,7 +23413,7 @@
 			)
 		)
 		(property "Value" "Power_SW"
-			(at 376.555 64.77 90)
+			(at 376.555 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23251,6 +23453,9 @@
 		)
 		(pin "2"
 			(uuid "c7c3c308-8f14-44fb-8fd6-304aab0ba90c")
+		)
+		(pin "MP"
+			(uuid "7c2038ee-c73c-4617-ab4d-8f42a0c55837")
 		)
 		(instances
 			(project "Calciumor_Core"
