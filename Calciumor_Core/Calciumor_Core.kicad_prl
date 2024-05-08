@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 36,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -22,7 +22,7 @@
       "lockedItems": true,
       "otherItems": false,
       "pads": true,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": false
@@ -83,12 +83,12 @@
         "name": "Calciumor_Core.kicad_pcb",
         "open": false,
         "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 3458,
-          "size_y": 1398
+          "display": 1,
+          "maximized": false,
+          "pos_x": 3432,
+          "pos_y": 992,
+          "size_x": 1456,
+          "size_y": 1258
         }
       }
     ]
